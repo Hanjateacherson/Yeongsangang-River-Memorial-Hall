@@ -105,7 +105,6 @@ h2 {
     gap: 1rem;
 }
 
-
 .gallery-page.active {
     display: flex;
     max-width: 1400px;
@@ -113,8 +112,9 @@ h2 {
 
 .gallery-page img,
 .gallery-page video {
-    width: 250px;
-    height: 180px;
+    width: 280px;
+    height: auto;
+    /* 이미지 비율 유지 */
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
@@ -136,8 +136,9 @@ h2 {
 
 #gallery-container img,
 #gallery-container video {
-    width: 440px;
-    height: 300px;
+    width: 280px;
+    height: auto;
+    /* 이미지 비율 유지 */
     object-fit: cover;
     margin: 0.5rem;
     cursor: pointer;
@@ -258,7 +259,7 @@ h2 {
         background-color: rgba(0, 0, 0, 0.9);
         /* 더 어둡게 해서 내용에 집중 */
         /* 모달 내용 가운데 정렬 */
-        display: none;
+        display: flex;
         flex-direction: column;
         /* 내용을 세로로 쌓고 */
         justify-content: center;
