@@ -105,14 +105,16 @@ h2 {
     gap: 1rem;
 }
 
+
 .gallery-page.active {
     display: flex;
+    max-width: 1400px;
 }
 
 .gallery-page img,
 .gallery-page video {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 180px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
