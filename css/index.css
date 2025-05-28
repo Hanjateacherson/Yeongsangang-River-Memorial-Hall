@@ -31,7 +31,7 @@ body {
 
 header {
     text-align: center;
-    padding: 3rem 1rem 1rem;
+    padding: 5rem 1rem 1rem;
 }
 
 .logo-link {
@@ -107,7 +107,7 @@ h2 {
     gap: 1rem;
     justify-items: center;
     align-items: center;
-    padding: 0.1rem;
+    padding: 1rem 1rem 10rem 1rem;
     font-size: 20pt;
     text-align: center;
 }
