@@ -62,7 +62,7 @@ h1 {
     animation: gradient 3s ease infinite;
 }
 
-.story-content{
+.story-title {
     font-weight: bold;
 }
 
@@ -203,7 +203,7 @@ main h3 {
 .postit {
 
     line-height: 1.6;
-    font-size: 24px;
+    font-size: 18px;
     position: relative;
     display: flex;
     align-items: center;
