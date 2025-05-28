@@ -19,7 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-weight: bold;
+
 }
 
 header {
@@ -60,6 +60,10 @@ h1 {
 
 .gradient-text:hover {
     animation: gradient 3s ease infinite;
+}
+
+.story-content{
+    font-weight: bold;
 }
 
 /* 내비게이션 바 스타일 (이전과 동일) */
