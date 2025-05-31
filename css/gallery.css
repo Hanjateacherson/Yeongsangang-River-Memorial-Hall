@@ -115,6 +115,23 @@ h2 {
     z-index: 0;
 }
 
+.gallery-page {
+    display: none;
+    /* 기본적으로 숨김 */
+}
+
+.gallery-page.active {
+    display: grid;
+    /* 보일 때만 grid로 표시 */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
 .gallery-page img,
 .gallery-page video {
     width: 280px;
